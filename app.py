@@ -1,4 +1,5 @@
 # app.py
+# 
 
 from flask import Flask, render_template, request
 from OriginalGangRunner_Area_Colour_V9 import (
@@ -29,7 +30,7 @@ def process_text():
         return render_template('index.html', error="Input text is required.", input_text=input_text)
 
     try:
-        # Retrieve sheet parameters from form
+        # Retrieve sheet parameters from form   --   
         min_sheets = request.form.get('min_sheets', '245').strip()
         max_sheets = request.form.get('max_sheets', '500').strip()
         increment = request.form.get('increment', '5').strip()

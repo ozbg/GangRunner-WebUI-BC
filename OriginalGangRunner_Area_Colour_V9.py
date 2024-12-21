@@ -1,4 +1,5 @@
 # OriginalGangRunner_Area_Colour_V9.py
+# Optimised for BC .
 
 import pulp
 import colorama
@@ -8,7 +9,7 @@ import json
 import sys
 import argparse
 
-# Initialize colorama
+# Initialize colorama 
 colorama.init(autoreset=True)
 
 # Configuration
